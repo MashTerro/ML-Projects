@@ -12,7 +12,7 @@ from google.colab import files
 import io
 
 data_to_load = files.upload()
-df = pd.read_csv('IPL Ball-by-Ball 2008-2020.csv')
+df = pd.read_csv('IPL.csv')
 df.head()
 
 cols_to_drop = ['mid','batsman','bowler','striker','non-striker']
